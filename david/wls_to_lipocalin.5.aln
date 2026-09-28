@@ -1,0 +1,90 @@
+% alignment  bewtween  wls  and  lipocalin:
+%
+%   42 AVSYMSVKCVDARKNHHKTKWFVPWGPNHCDKIRDIEEAIPREIE..AND  89 
+%  112 WGSTYSVSVVETD................................YDQYA 129 
+%
+%
+%   90 IVFSVHIPL  98 
+%  130 LLYSQGSKG 138 
+%
+%
+% tfm matrix: 
+%      -0.411      0.285     -0.866    119.291 
+%      -0.171      0.909      0.380    -17.983 
+%       0.895      0.304     -0.325     54.625 
+%
+% mapped elements of secondary structure 
+% SSE1-->SSE2   type   cosine  exp_score   chain1  range1  chain2  range2 
+%   SSE map   type  cosine   Gauss wt.  res range  res range
+%  wls-->lipocalin                          in   wls   in lipocalin
+%  1 -->  8     S    0.95    2.8e-01     B   42   53   A  114  124
+%  6 -->  9     S    1.00    5.7e-01     B   90   95   A  128  136
+% 14 --> 10     S    0.98    6.1e-01     B  194  204   A  140  150
+%
+%
+%total assigned score     1.455638 
+%
+%
+%
+% distances of the aligned Ca's:
+%
+% pdb_id_1  type_1    distance  pdb_id_2  type_2
+     42        A        3.75     112        W 
+     43        V        1.93     113        G 
+     44        S        2.67     114        S 
+     45        Y        2.66     115        T 
+     46        M        4.23     116        Y 
+     47        S        4.69     117        S 
+     48        V        1.62     118        V 
+     49        K        3.64     119        S 
+     50        C        1.54     120        V 
+     51        V        3.30     121        V 
+     52        D        0.77     122        E 
+     53        A        4.58     123        T 
+     54        R        8.01     124        D 
+     55        K           -       -        - 
+     56        N           -       -        - 
+     57        H           -       -        - 
+     58        H           -       -        - 
+     59        K           -       -        - 
+     60        T           -       -        - 
+     61        K           -       -        - 
+     62        W           -       -        - 
+     63        F           -       -        - 
+     64        V           -       -        - 
+     65        P           -       -        - 
+     66        W           -       -        - 
+     67        G           -       -        - 
+     68        P           -       -        - 
+     69        N           -       -        - 
+     70        H           -       -        - 
+     71        C           -       -        - 
+     72        D           -       -        - 
+     73        K           -       -        - 
+     74        I           -       -        - 
+     75        R           -       -        - 
+     76        D           -       -        - 
+     77        I           -       -        - 
+     78        E           -       -        - 
+     79        E           -       -        - 
+     80        A           -       -        - 
+     81        I           -       -        - 
+     82        P           -       -        - 
+     83        R           -       -        - 
+     84        E           -       -        - 
+     85        I           -       -        - 
+     86        E           -       -        - 
+      -        -           -     125        Y 
+      -        -           -     126        D 
+     87        A        5.65     127        Q 
+     88        N        3.03     128        Y 
+     89        D        1.34     129        A 
+     90        I        3.86     130        L 
+     91        V        0.16     131        L 
+     92        F        3.96     132        Y 
+     93        S        1.40     133        S 
+     94        V        1.84     134        Q 
+     95        H        3.06     135        G 
+     96        I        4.50     136        S 
+     97        P        4.59     137        K 
+     98        L        5.88     138        G 

@@ -1,0 +1,18 @@
+
+  SPECS version 2020.
+  by Ivana Mihalek, 2007
+  File produced on Tue Apr  7 22:51:29 2020
+
+  Options:
+  	 alignment  file:        /var/www/html/cube/current/cube/static/workdir/BYXJOW/alnmt_w_pdb_seq.afa
+  	 main refseq  name:         homo_sapiens
+  	 pdb file:               /var/www/html/cube/current/cube/static/workdir/BYXJOW/6m17B.pdb
+  	 pdb seq name:           6m17B
+  	 max fraction of gaps:   0.30
+  	 residue scoring method:  rvet
+  	 tree building method:   UPGMA
+  Warning:
+  	 No chain specified. Using the first one.
+  Notes:
+  	 Remember that the results will depend on the input sequence selection,
+  	 as well as the alignment quality and proportion of gaps in the alignment.

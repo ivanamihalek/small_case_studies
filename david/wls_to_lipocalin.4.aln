@@ -1,0 +1,116 @@
+% alignment  bewtween  wls  and  lipocalin:
+%
+%  128 ENAEVSMDVSLAYRDDAFAEWTEMAHERVPRKLKCTFTSPKTPEHEGRYY 177 
+%  112 WGSTYSVSVVETD..................................... 124 
+%
+%
+%  178 ECDVLPFMEIGSVAHKFYLLNIRLPVNEKKKINVG 212 
+%  125 ..............YDQYALLYSQ.G.....SKGP 139 
+%
+%
+% tfm matrix: 
+%      -0.080     -0.504      0.860     -2.075 
+%       0.219     -0.851     -0.478    102.019 
+%       0.972      0.151      0.178     14.438 
+%
+% mapped elements of secondary structure 
+% SSE1-->SSE2   type   cosine  exp_score   chain1  range1  chain2  range2 
+%   SSE map   type  cosine   Gauss wt.  res range  res range
+%  wls-->lipocalin                          in   wls   in lipocalin
+%  8 -->  3     S    0.96    1.7e-01     B  106  121   A   42   50
+% 10 -->  8     S    0.98    4.9e-01     B  129  141   A  114  124
+% 14 -->  9     S    0.98    4.9e-01     B  194  204   A  128  136
+%
+%
+%total assigned score     1.157844 
+%
+%
+%
+% distances of the aligned Ca's:
+%
+% pdb_id_1  type_1    distance  pdb_id_2  type_2
+    128        E        6.28     112        W 
+    129        N        2.88     113        G 
+    130        A        2.08     114        S 
+    131        E        1.96     115        T 
+    132        V        2.07     116        Y 
+    133        S        2.00     117        S 
+    134        M        1.86     118        V 
+    135        D        2.98     119        S 
+    136        V        3.04     120        V 
+    137        S        2.25     121        V 
+    138        L        3.92     122        E 
+    139        A        1.09     123        T 
+    140        Y        0.03     124        D 
+    141        R           -       -        - 
+    142        D           -       -        - 
+    143        D           -       -        - 
+    144        A           -       -        - 
+    145        F           -       -        - 
+    146        A           -       -        - 
+    147        E           -       -        - 
+    148        W           -       -        - 
+    149        T           -       -        - 
+    150        E           -       -        - 
+    151        M           -       -        - 
+    152        A           -       -        - 
+    153        H           -       -        - 
+    154        E           -       -        - 
+    155        R           -       -        - 
+    156        V           -       -        - 
+    157        P           -       -        - 
+    158        R           -       -        - 
+    159        K           -       -        - 
+    160        L           -       -        - 
+    161        K           -       -        - 
+    162        C           -       -        - 
+    163        T           -       -        - 
+    164        F           -       -        - 
+    165        T           -       -        - 
+    166        S           -       -        - 
+    167        P           -       -        - 
+    168        K           -       -        - 
+    169        T           -       -        - 
+    170        P           -       -        - 
+    171        E           -       -        - 
+    172        H           -       -        - 
+    173        E           -       -        - 
+    174        G           -       -        - 
+    175        R           -       -        - 
+    176        Y           -       -        - 
+    177        Y           -       -        - 
+    178        E           -       -        - 
+    179        C           -       -        - 
+    180        D           -       -        - 
+    181        V           -       -        - 
+    182        L           -       -        - 
+    183        P           -       -        - 
+    184        F           -       -        - 
+    185        M           -       -        - 
+    186        E           -       -        - 
+    187        I           -       -        - 
+    188        G           -       -        - 
+    189        S           -       -        - 
+    190        V           -       -        - 
+    191        A           -       -        - 
+    192        H        5.19     125        Y 
+    193        K        3.60     126        D 
+    194        F        1.55     127        Q 
+    195        Y        1.78     128        Y 
+    196        L        2.22     129        A 
+    197        L        1.97     130        L 
+    198        N        2.20     131        L 
+    199        I        1.43     132        Y 
+    200        R        3.14     133        S 
+    201        L        1.13     134        Q 
+    202        P           -       -        - 
+    203        V        4.88     135        G 
+    204        N           -       -        - 
+    205        E           -       -        - 
+    206        K           -       -        - 
+    207        K           -       -        - 
+    208        K           -       -        - 
+    209        I        1.58     136        S 
+    210        N        4.17     137        K 
+    211        V        3.36     138        G 
+    212        G        0.83     139        P 

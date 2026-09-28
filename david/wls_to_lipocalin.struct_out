@@ -1,0 +1,23 @@
+% columns: 
+% query, target: structure names
+% geom_z:  z score for the orientational match 
+% <dL>:    average length mismatch for matched SSEs 
+% T:       total score assigned to matched SSEs 
+% frac:    T divided by the number of matched SSEs 
+% gc_rmsd: RMSD btw geometric centers of matched SSEs (before backbone alignment) 
+% Ca_rmsd:(after backbone alignment) rmsd for matched C-alpha 
+% A:       (after backbone alignment) the alignment score 
+% aln_L:   (after backbone alignment) the alignment length 
+
+% query target  geom_z   <dL>  T    frac gc_rmsd res_rmsd      A    aln_L    mapped_pdb 
+lipocalin    wls    0.000  3.667   1.30   0.10  0.000  4.692   25.277   44   wls_to_lipocalin.0.pdb
+lipocalin    wls    0.000  2.667   1.21   0.09  0.000  3.552   24.323   36   wls_to_lipocalin.1.pdb
+lipocalin    wls    0.000  2.500   1.27   0.10  0.000  3.306   23.245   43   wls_to_lipocalin.2.pdb
+lipocalin    wls    0.000  4.000   1.69   0.13  0.000  3.459   15.872   37   wls_to_lipocalin.3.pdb
+lipocalin    wls    0.000  3.667   1.16   0.09  0.000  2.899   15.526   28   wls_to_lipocalin.4.pdb
+lipocalin    wls    0.000  1.333   1.46   0.11  0.000  3.746   14.428   25   wls_to_lipocalin.5.pdb
+lipocalin    wls    0.000  2.667   1.04   0.08  0.000  3.714   13.634   36   wls_to_lipocalin.6.pdb
+lipocalin    wls    0.000  4.333   0.80   0.06  0.000  2.978   11.793   15   wls_to_lipocalin.7.pdb
+lipocalin    wls    0.000  3.000   0.84   0.06  0.000  3.934   10.298   15   wls_to_lipocalin.8.pdb
+lipocalin    wls    0.000  1.333   1.44   0.11  0.000  2.811    9.240   12   wls_to_lipocalin.9.pdb
+done   CPU:       0.041 s

@@ -1,0 +1,16 @@
+spliceai -I input_for_spliceai.vcf  -O spliceai_output.vcf -R /storage/databases/ucsc/goldenpath/hg19/hg19.fa -A grch37
+tensorflow installed wihtout GPU support (sudo pip install tensorflow-cpu)
+spliceai complains about something or the other, but produces the output
+Details of SpliceAI INFO field:
+
+ID	Description
+ALLELE	Alternate allele
+SYMBOL	Gene symbol
+DS_AG	Delta score (acceptor gain)
+DS_AL	Delta score (acceptor loss)
+DS_DG	Delta score (donor gain)
+DS_DL	Delta score (donor loss)
+DP_AG	Delta position (acceptor gain)
+DP_AL	Delta position (acceptor loss)
+DP_DG	Delta position (donor gain)
+DP_DL	Delta position (donor loss)

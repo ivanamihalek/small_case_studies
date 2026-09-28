@@ -1,0 +1,42 @@
+% alignment  bewtween  wls  and  lipocalin:
+%
+%  189 SVAHKFYLLNIRLPV 203 
+%  112 WGSTYSVSVVETDYD 126 
+%
+%
+% tfm matrix: 
+%      -0.921      0.223     -0.320     87.209 
+%       0.152      0.961      0.231    -14.744 
+%       0.359      0.164     -0.919    118.468 
+%
+% mapped elements of secondary structure 
+% SSE1-->SSE2   type   cosine  exp_score   chain1  range1  chain2  range2 
+%   SSE map   type  cosine   Gauss wt.  res range  res range
+%  wls-->lipocalin                          in   wls   in lipocalin
+%  3 -->  3     S    0.99    4.7e-01     B   60   64   A   42   50
+% 11 -->  4     S    0.93    1.0e-01     B  147  150   A   64   72
+% 14 -->  8     S    0.94    2.8e-01     B  194  204   A  114  124
+%
+%
+%total assigned score     0.843662 
+%
+%
+%
+% distances of the aligned Ca's:
+%
+% pdb_id_1  type_1    distance  pdb_id_2  type_2
+    189        S        4.65     112        W 
+    190        V        5.62     113        G 
+    191        A        2.97     114        S 
+    192        H        3.90     115        T 
+    193        K        4.75     116        Y 
+    194        F        3.24     117        S 
+    195        Y        3.20     118        V 
+    196        L        2.63     119        S 
+    197        L        3.35     120        V 
+    198        N        3.31     121        V 
+    199        I        5.62     122        E 
+    200        R        1.35     123        T 
+    201        L        2.68     124        D 
+    202        P        4.84     125        Y 
+    203        V        4.29     126        D 

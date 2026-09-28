@@ -1,0 +1,14 @@
+
+  SPECS version 2020.
+  by Ivana Mihalek, 2007
+  File produced on Thu Jul 30 12:36:12 2020
+
+  Options:
+  	 alignment  file:        /var/www/html/cube/current/cube/static/workdir/7EETBO/alnmt_restricted_to_ref_seq.afa
+  	 main refseq  name:         human
+  	 max fraction of gaps:   0.30
+  	 residue scoring method:  rvet
+  	 tree building method:   UPGMA
+  Notes:
+  	 Remember that the results will depend on the input sequence selection,
+  	 as well as the alignment quality and proportion of gaps in the alignment.
