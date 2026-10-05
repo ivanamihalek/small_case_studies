@@ -8,6 +8,7 @@ report/*
 *.ttf
 *.csv
 *.tsv
+*.xlsx
 *.pyc
 *.pdb
 *.txt
@@ -23,4 +24,6 @@ report/*
 *.gplt
 *.net
 *.png
+*.svg
 *.bngl_out
+
