@@ -12,7 +12,7 @@ Usage:
 Example:
     uv run 01_pdf_table_parser.py data/paper_supp.pdf out/ MYO7A S3
 
-The output is a tab-separated file <output_dir>/<pdf stem>.tab holding the
+The output is a tab-separated file <output_dir>/<pdf stem>.tsv holding the
 table header followed by every row whose gene column holds the gene name as a
 whole token (case-insensitive).
 
@@ -427,7 +427,7 @@ def select_gene_rows(rows: list[list[str]], gene: str, gene_column: str) -> list
 
 #######################################
 # output
-def write_tab(rows: list[list[str]], out_path: Path) -> None:
+def write_tsv(rows: list[list[str]], out_path: Path) -> None:
     # write to a temp file in the same directory, then rename: no half-written output on failure
     fd, tmp_name = tempfile.mkstemp(dir=out_path.parent, prefix=f".{out_path.stem}.", suffix=".tmp")
     try:
@@ -442,10 +442,10 @@ def write_tab(rows: list[list[str]], out_path: Path) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Extract rows mentioning a gene from a numbered table in a PDF into a .tab file."
+        description="Extract rows mentioning a gene from a numbered table in a PDF into a .tsv file."
     )
     parser.add_argument("pdf", help="path to the input PDF")
-    parser.add_argument("output_dir", help="existing directory to write <pdf stem>.tab into")
+    parser.add_argument("output_dir", help="existing directory to write <pdf stem>.tsv into")
     parser.add_argument("gene", help="gene name to look for, e.g. MYO7A")
     parser.add_argument("table_id", help="table id as in the caption, e.g. 3 or S3")
     parser.add_argument("-f", "--force", action="store_true", help="overwrite an existing output file")
@@ -463,7 +463,7 @@ def main() -> None:
     except InputError as exc:
         die(str(exc))
 
-    out_path = out_dir / f"{pdf_path.stem}.tab"
+    out_path = out_dir / f"{pdf_path.stem}.tsv"
     if out_path.exists() and not args.force:
         die(f"output file '{out_path}' already exists (use --force to overwrite)")
     if out_path.exists() and not out_path.is_file():
@@ -490,7 +490,7 @@ def main() -> None:
         die(f"no rows mentioning '{gene}' found in Table {table_id}", exit_code=2)
 
     try:
-        write_tab(selected, out_path)
+        write_tsv(selected, out_path)
     except OSError as exc:
         die(f"could not write '{out_path}': {exc}")
     print(f"Wrote {len(selected) - 1} rows to {out_path}", file=sys.stderr)
