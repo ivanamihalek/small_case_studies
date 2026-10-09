@@ -103,9 +103,9 @@ SURFACE = "#fcfcfb"
 TEXT_PRIMARY = "#0b0b0b"
 TEXT_SECONDARY = "#52514e"
 AXIS_COLOR = "#52514e"
-ABOVE_COLOR = "#2a78d6"
-BELOW_COLOR = "#eb6834"
-MARK_COLOR = "#1f9d55"
+ABOVE_COLOR = "#785ef0"
+BELOW_COLOR = "#dc267f"
+MARK_COLOR = "#ffb000"
 FONT = "system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
 
 
