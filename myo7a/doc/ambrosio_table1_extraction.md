@@ -1,4 +1,4 @@
-# Extracting Table 1 from `data/ambrosio.pdf`
+# Extracting Table 1 from `../literature/ambrosio.pdf`
 
 Source: Ambrosio et al., Doc Ophthalmol (2021) 143:39–51, Table 1
 ("Genetic diagnosis and ophthalmic characteristics by study patients").
